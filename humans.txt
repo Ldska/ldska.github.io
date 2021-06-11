@@ -1,0 +1,25 @@
+/* humanstxt.org */
+/* TEAM */
+	Company: site365.ru	                           
+	Site: site365.ru
+	Contact: 
+		email: site365@ya.ru
+		skype: site365
+		telephone: +7 343 219 08 80
+
+	CSS3 and HTML5: Mironov Aleksey
+	PHP and jQuery: Mironov Aleksey
+	Design & Idea: Molokotin Vladimir
+
+	Location: Russia, Yekaterinburg
+	
+/* THANKS */
+	Google: http://google.com/	
+
+/* SITE */
+	Language: Russian                            
+	Standards: HTML5, CSS3
+	CMS: TSAdmin
+	Doctype: HTML5 with CSS3
+	Tools: PHP                          
+	Components: jQuery, etc.

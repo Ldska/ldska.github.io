@@ -1,0 +1,23 @@
+@font-face{
+    font-family: 'Pf Din Display';
+    src: local('Pf Din Display'), url('../upload/PFDinDisplayPro-Light.woff') format('woff');
+    src: url('../upload/PFDinDisplayPro-Light.woff') format('woff'),
+           url('../upload/PFDinDisplayPro-Light.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    min-width:1100px;
+    max-width: 1700px;
+    width:auto;
+}
+
+body{
+    min-width:1101px;}
+
+
+#content .post .cover_img  {
+  max-width: 200px;
+}
+h1.title,.block_on_main .fz_title{text-align:center}
+aside .block , aside .block.block_type_calendar   , a.special {width:240px !important}

@@ -1,0 +1,114 @@
+@font-face{
+    font-family: 'Pf Din Display';
+    src: local('Pf Din Display'), url('../upload/PFDinDisplayPro-Light.woff') format('woff');
+    src: url('../upload/PFDinDisplayPro-Light.woff') format('woff'),
+           url('../upload/PFDinDisplayPro-Light.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    min-width:1100px;
+    max-width: 1700px;
+    width:auto;
+}
+
+body{
+    min-width:1101px;}
+
+
+/*шрифты*/
+body {font-family: 'Pf Din Display', Helvetica, sans-serif}
+h1.title , #main_page p.title,#content .block_on_main .fz_title {font-family: 'Pf Din Display', Helvetica, sans-serif}
+nav ,#left_nav , #right_nav  {font-family: 'Pf Din Display', Helvetica, sans-serif}
+
+#content ,#BLOCK_ON_MAIN , body.redactor{font-size: 18px}
+header{font-size: 18px}
+footer{font-size: 18px}
+#content h1.title , .fz_title {font-size: 24px}
+#content .block_on_main .fz_title {font-size: 26px}
+#content .block_on_main section {font-size: 18px}
+aside .block p.title {font-size: 22px;    margin-bottom: 15px;}
+aside .block .text{font-size: 16px}
+.news_row .title , .blog_post .title ,.catalog_map_element .title{font-size: 24px}
+nav#G_MENU li>a{font-size: 18px}
+aside #left_nav li>a {font-size: 16px}
+
+a , .crumbs a, .crumbs span , .alblink .albom_title{ color: rgb(226, 80, 67) }
+/*.btn {    border-color: rgb(226, 80, 67) ;}*/
+a.site_tag:hover{background-color: rgb(226, 80, 67)}
+a:hover, .alblink:hover .albom_title { color: rgb(226, 119, 67)}
+.gallink:hover img,.alblink.four_img:hover .wrap_four_img ,.btn:hover{
+    border-color: rgb(226, 119, 67);
+}
+.alblink:hover .img {background-color:rgb(226, 119, 67)}
+body:not(.redactor) {background: rgb(255, 251, 227) url('../images/bg/img_body.jpg@uts=1583731485') repeat 50% 0 ;}
+    header {background: rgb(197, 51, 38) url('../images/bg/top.jpg@uts=1583731485') repeat-x 50% 0;}
+    @media (max-width: 400px){
+        header {background-color: rgb(197, 51, 38) }
+    }
+
+nav , .nav_wrapper {background-color: rgb(226, 80, 67);}
+nav  ul  li a{color:rgb(255, 255, 255)}
+nav ul.ul_lvl_1 > li.active > a {background-color: rgb(197, 51, 38);color:rgb(255, 250, 195)}
+nav ul.ul_lvl_1 > li:hover > a {background-color: rgb(197, 51, 38);color:rgb(255, 255, 255)}
+nav ul.ul_lvl_1 > li > ul  a.active {color:rgb(255, 250, 195)}
+nav ul.ul_lvl_1 > li > ul {background-color: rgb(197, 51, 38);color:rgb(255, 255, 255)}
+nav ul.ul_lvl_1 > li > ul li a , nav ul.ul_lvl_1 > li > ul li a:hover{color:rgb(255, 255, 255)}
+nav ul.ul_lvl_1 > li > ul > li {border-bottom: 1px dashed rgb(226, 80, 67);}
+nav ul.ul_lvl_1 > li > ul > li:last-child {border-bottom: none}
+
+#left_nav div{background-color: rgb(226, 80, 67);}
+#left_nav div ul > li a , #left_nav div ul li ul li a{color:rgb(255, 255, 255)}
+#left_nav  ul > li.active > a , #left_nav > ul > li > ul > li > a.active {background: rgb(197, 51, 38);color:rgb(255, 250, 195)}
+
+
+#left_nav div  ul > li a:hover,#left_nav div ul li ul li a:hover {background-color: rgb(197, 51, 38);color:rgb(255, 255, 255)}
+#left_nav div ul > li > ul {background-color: rgb(170, 46, 35);color:rgb(243, 243, 243)}
+#left_nav div ul > li > ul > li a {color:rgb(243, 243, 243)}
+#left_nav div ul > li {border-bottom: 1px solid rgb(197, 51, 38);}
+#left_nav div ul > li:last-child {border-bottom: none}
+#left_nav div ul li ul li a.active {color:rgb(255, 250, 195)}
+
+footer {
+    color: rgb(243, 243, 243) ;
+    background-color:rgb(197, 51, 38);
+                     background:rgb(197, 51, 38) url('../images/bg/foot.jpg@uts=1583731485') repeat-x center 0%;
+            }
+@media (max-width: 415px){
+  header{background-image:none}
+           footer{background-image:none}
+     }
+footer a, footer a:hover{    color: rgb(255, 250, 195) ;   }
+header a , header a:hover{    color: rgb(255, 250, 195) ;   }
+.wrap {
+    border: 1px solid rgb(226, 80, 67);
+    background-color: rgb(255, 255, 255);
+    color:rgb(28, 28, 28);
+    padding: 20px;
+}
+#BLOCK_ON_MAIN {
+    background-color: rgb(147, 196, 125);
+    }
+.news .post:not(:last-child), .blog .blog_post:not(:last-child), .catalog_map_element:not(:last-child){
+    border-color:  rgb(226, 80, 67);}
+
+body.redactor{ background-color: rgb(255, 255, 255);}
+#nivoSlider {
+    border: 1px solid rgb(226, 80, 67);
+}
+#nivoSlider img,#nivoSlider{
+    width: 1240px !important;
+    height: 400px !important;
+}
+#slider ,#owl_slider .slide,#owl_slider {
+    height: 400px;}
+#calendar .days.m a {border:1px solid rgb(255, 255, 255)}
+h2.title , h1.title, .block>p.title ,.messages .question .p .name, .messages .answer .p .name, .comment dt .name ,.color_title{
+    color: rgb(197, 51, 38);
+}
+header .header_text {color:rgb(255, 255, 255)}
+#content .post .cover_img  {
+  max-width: 200px;
+}
+h1.title,.block_on_main .fz_title{text-align:center}
+aside .block , aside .block.block_type_calendar   , a.special {width:240px !important}
